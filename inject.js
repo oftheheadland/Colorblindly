@@ -2,6 +2,13 @@
 
 (function() {
 
+
+	document.querySelectorAll('*').forEach(function(node) {
+		console.log(node)
+		
+	});
+
+
 	// just place a div at top right
 	var div = document.createElement('div');
 	div.style.position = 'fixed';
@@ -10,6 +17,7 @@
 	div.textContent = 'Injected!';
 	document.body.appendChild(div);
 
+	
 	//alert('inserted self..');
 
 })();
