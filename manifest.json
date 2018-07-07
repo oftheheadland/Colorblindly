@@ -1,0 +1,21 @@
+{
+  "name": "Accessibility Helper",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Accessibility Helper",
+  "homepage_url": "http://vanness.me",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Accessibility Helper"
+  },
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs"
+  ]
+}
