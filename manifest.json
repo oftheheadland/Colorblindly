@@ -14,8 +14,6 @@
     "default_title": "Accessibility Helper"
   },
   "permissions": [
-    "https://*/*",
-    "http://*/*",
-    "tabs"
+    "activetab"
   ]
 }

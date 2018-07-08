@@ -2,6 +2,26 @@
 
 (function() {
 
+//todo:make a stylesheet that force changes body, font, font-color/size
+
+
+// loop through all dom elements
+var all = document.getElementsByTagName("*");
+
+for (var i=0, max=all.length; i < max; i++) {
+     // Do something with the element here
+}
+console.log("all: ")
+console.log(all)
+
+
+// text to speech
+
+var msg = new SpeechSynthesisUtterance('Hello World');
+window.speechSynthesis.speak(msg);
+
+
+
 // colorblind mode
 	(function () {
 		var body = document.body;
@@ -13,11 +33,8 @@
 	  }());
 
 
-	document.querySelectorAll('*').forEach(function(node) {
-		console.log(node)
 
-	});
-
+//test div 
 
 	// just place a div at top right
 	var div = document.createElement('div');
