@@ -1,4 +1,8 @@
-// this is the code which will be injected into a given page...
+// this is the code which will be injected into a page
+
+
+// extension purpose: for developers to test if their own websites are accessible/508 compliant for blind and colorblind people
+// also for making websites more accessible for said individuals by giving them advanced and optimized tools for accessibility
 
 (function() {
 
@@ -31,7 +35,11 @@ window.speechSynthesis.speak(msg);
 // colorblind mode
 	(function () {
 		var body = document.body;
+		
+		// IE/Edge
 		body.style['filter'] = 'progid:DXImageTransform.Microsoft.BasicImage(grayscale=1)';
+		
+		// Modern Browsers
 		if (!body.style['filter']) {
 		  body.style['-webkit-filter'] = 'grayscale(1)';
 		  body.style['filter'] = 'grayscale(1)';
