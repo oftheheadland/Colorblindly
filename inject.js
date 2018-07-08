@@ -12,6 +12,7 @@
 
 // make popup.html a slick, modern popup with effects and styles
 
+//transcribe images on page to text to speech, transcrption api?
 
 (function() {
 
@@ -54,6 +55,13 @@ window.speechSynthesis.speak(msg);
 		  body.style['filter'] = 'grayscale(1)';
 		}
 	  }());
+
+// to turn off grayscale 
+// body.style['-webkit-filter'] = 'grayscale(0)';
+// body.style['filter'] = 'grayscale(0)';
+
+
+
 
 
 

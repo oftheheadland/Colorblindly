@@ -1,0 +1,47 @@
+body {
+    margin: 0px;
+    user-select: none;
+    width: 250px;
+}
+
+.title {
+    background-color: #444444;
+    color: #FFFFFF;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+}
+
+    .title > p {
+        margin: 0px;
+    }
+
+.wrapper {
+    border-bottom: 1px dashed #CCCCCC;
+    padding: 6px;
+}
+
+    .wrapper.separator {
+        border-bottom: 1px solid #000000;
+    }
+
+    .wrapper:last-of-type {
+        border-bottom: none;
+    }
+
+    .wrapper:hover {
+        background-color: #EEEEEE;
+    }
+
+    .wrapper > svg {
+        margin-right: 3px;
+        position: relative;
+        top: 1px;
+        width: 16px;
+    }
+
+    .wrapper > span {
+        font-size: 14px;
+        position: relative;
+        top: -2px;
+    }
