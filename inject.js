@@ -17,8 +17,14 @@ console.log(all)
 
 // text to speech
 
-var msg = new SpeechSynthesisUtterance('Hello World');
+// get entire text of page
+text = document.body.textContent || document.body.innerText;
+var msg = new SpeechSynthesisUtterance(text);
 window.speechSynthesis.speak(msg);
+
+
+//var msg = new SpeechSynthesisUtterance('Hello World');
+//window.speechSynthesis.speak(msg);
 
 
 
