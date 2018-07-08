@@ -10,10 +10,16 @@
     ],
     "persistent": true
   },
+  "icons": { "16": "images/orange.png",
+    "48": "images/orange.png",
+   "128": "images/orange.png" },
   "browser_action": {
-    "default_title": "Accessibility Helper"
+
+    "default_title": "Accessibility", 
+    "default_popup": "popup.html"    
   },
+
   "permissions": [
-    "activetab"
+    "activeTab"
   ]
 }

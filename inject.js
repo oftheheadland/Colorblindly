@@ -4,6 +4,15 @@
 // extension purpose: for developers to test if their own websites are accessible/508 compliant for blind and colorblind people
 // also for making websites more accessible for said individuals by giving them advanced and optimized tools for accessibility
 
+// make an Edge/Firefox extension as well as a chrome extension?
+
+// allow users to inject their css/JS like mastermind extension?
+
+// make extension that removes extra GUI garbage in twitch chat (chat box/bits/chat rooms)
+
+// make popup.html a slick, modern popup with effects and styles
+
+
 (function() {
 
 //todo:make a stylesheet that force changes body, font, font-color/size
