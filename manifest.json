@@ -1,8 +1,8 @@
 {
-  "name": "Accessibility Helper",
+  "name": "Eye of Odin",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "Accessibility Helper",
+  "description": "Accessibility Helper Extension",
   "homepage_url": "http://vanness.me",
   "background": {
     "scripts": [
@@ -15,7 +15,7 @@
    "128": "images/thicker.png" },
   "browser_action": {
 
-    "default_title": "Accessibility", 
+    "default_title": "Eye of Odin", 
     "default_popup": "popup/popup.html"    
   },
   "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'",
