@@ -1,0 +1,1 @@
+Eye of Odin is an extension that helps developers make websites for the visually impaired by simulating the experience those users have.

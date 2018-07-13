@@ -1,8 +1,8 @@
 {
-  "name": "Accessibility Helper",
-  "version": "0.0.1",
+  "name": "Eye of Odin",
+  "version": "0.1.0",
   "manifest_version": 2,
-  "description": "Accessibility Helper",
+  "description": "Accessibility Helper Extension",
   "homepage_url": "http://vanness.me",
   "background": {
     "scripts": [
@@ -10,12 +10,14 @@
     ],
     "persistent": true
   },
+  "icons": { "16": "images/thicker.png",
+    "48": "images/thicker.png",
+   "128": "images/thicker.png" },
   "browser_action": {
-    "default_title": "Accessibility Helper"
+    "default_title": "Eye of Odin", 
+    "default_popup": "popup/popup.html"    
   },
   "permissions": [
-    "https://*/*",
-    "http://*/*",
-    "tabs"
+    "activeTab"
   ]
 }
