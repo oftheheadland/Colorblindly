@@ -47,5 +47,10 @@ document.getElementById("button4").addEventListener("click", function () {
 });
 
 document.getElementById("button5").addEventListener("click", function () {
+    changeTab(event, 'Inject');
+});
+
+document.getElementById("button6").addEventListener("click", function () {
     changeTab(event, 'About');
 });
+

@@ -26,20 +26,3 @@ document.getElementById("stopaudiobutton").addEventListener("click", function ()
 
 
 
-//temp colorblind listener
-// will need like 8 different js files but whatever
-// will probably need a new JS function, this one is tricky to not use input. ponder it
-
-document.getElementById("colorblindbutton").addEventListener("click", function () {
-    injectcolorblind();
-});
-
-
-function injectcolorblind() {
-    //inject script into page
-    chrome.tabs.executeScript({
-        file: 'colorblind.js'
-    });
-
-
-}
