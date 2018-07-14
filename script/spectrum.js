@@ -766,6 +766,14 @@
             else {
                 var realHex = realColor.toHexString(),
                     realRgb = realColor.toRgbString();
+                    console.log("hex: " + realHex)
+                    console.log("rgb: " + realRgb)
+
+                    console.log(getContrast50(realHex))
+
+                    function getContrast50(hexcolor){
+                        return (parseInt(hexcolor, 16) > 0xffffff/2) ? 'black':'white';
+                    }
 
                 // Update the replaced elements background color (with actual selected color)
                 if (rgbaSupport || realColor.alpha === 1) {
