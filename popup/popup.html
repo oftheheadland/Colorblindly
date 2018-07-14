@@ -96,6 +96,15 @@ body {
 
 </style>
 
+<style>
+    .full-spectrum .sp-palette {
+max-width: 200px;
+}
+
+</style>
+
+<link rel='stylesheet' href='http://bgrins.github.io/spectrum/spectrum.css' />
+
 
 </head>
 <body>
@@ -195,6 +204,9 @@ body {
 <div id="Contrast-Helper" class="tabcontent">
   <h3>Contrast Helper</h3>
   <p>This page will help you choose the proper text color for a given background color. Will have a color picker and ability to enter your own hex or rgb code.</p>
+  <input type='text' id="full"/>
+
+
 </div>
 
 
@@ -216,10 +228,13 @@ body {
 
 
 
-
 <script src="tabs.js"></script>
 <script src="../tts.js"></script>
+<script src="../jquery.min.js"></script>
 <script src="../colorblindListener.js"></script>
+<script src="../spectrum.js"></script>
+<script src="../picker.js"></script>
+
      
 </body>
 </html> 
