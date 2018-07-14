@@ -6,7 +6,7 @@
   "homepage_url": "http://vanness.me",
   "background": {
     "scripts": [
-      "background.js"
+      "script/background.js"
     ],
     "persistent": true
   },

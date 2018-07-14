@@ -5,7 +5,7 @@ var synth = window.speechSynthesis
 function texttospeech() {
     //inject script into page
     chrome.tabs.executeScript({
-        file: 'play.js'
+        file: 'script/play.js'
     });
 
 
