@@ -51,6 +51,13 @@ body {
     margin-left: 4px;
 }
 
+#color-background {
+    width:100px; 
+    background-color: rgb(52, 124, 124); 
+    margin-top: 200px;
+}
+
+
 
 /* radio button styles */
 

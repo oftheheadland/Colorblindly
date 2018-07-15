@@ -1,5 +1,5 @@
 $("#full").spectrum({
-    color: "#ECC",
+    color: "#24385a",
     showInput: true,
     className: "full-spectrum",
     showInitial: false,

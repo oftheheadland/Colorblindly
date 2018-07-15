@@ -15,7 +15,11 @@ function stopAudio() {
     synth.cancel();
 }
 
-document.getElementById("audiobutton").addEventListener("click", function () {
+window.onbeforeunload = function(){
+    synth.cancel();
+  };
+
+document.getElementById("playaudiobutton").addEventListener("click", function () {
     texttospeech();
 });
 
@@ -23,6 +27,15 @@ document.getElementById("stopaudiobutton").addEventListener("click", function ()
     stopAudio();
 });
 
+// document.getElementById("pauseaudiobutton").addEventListener("click", function () {
+//     console.log("pausing")
+//     synth.pause();
+// });
+
+// document.getElementById("resumeaudiobutton").addEventListener("click", function () {
+//     console.log("resuming")
+//     synth.resume();
+// });
 
 
 
