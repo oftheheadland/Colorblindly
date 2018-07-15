@@ -2,11 +2,11 @@ $("#full").spectrum({
     color: "#ECC",
     showInput: true,
     className: "full-spectrum",
-    showInitial: true,
-    showPalette: true,
+    showInitial: false,
+    showPalette: false,
     showSelectionPalette: true,
     maxSelectionSize: 10,
-    preferredFormat: "hex",
+    preferredFormat: "rgb",
     localStorageKey: "spectrum.demo",
     move: function (color) {
         

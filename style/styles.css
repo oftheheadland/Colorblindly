@@ -42,8 +42,14 @@ body {
     height: 40px
 }
 
+.rgbinput {
+    width: 25px;
+}
 
-
+.hexinput {
+    width: 50px;
+    margin-left: 4px;
+}
 
 
 /* radio button styles */
