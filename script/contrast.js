@@ -8,7 +8,7 @@ function checkContrast(rgb){
 }
 
 
-console.log(getContrast50("ffffff"))
+//console.log(getContrast50("ffffff"))
 
 function getContrast50(hexcolor){
     return (parseInt(hexcolor, 16) > 0xffffff/2) ? 'black':'white';

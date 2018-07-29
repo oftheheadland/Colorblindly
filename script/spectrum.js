@@ -768,7 +768,6 @@
                     realRgb = realColor.toRgbString();
 
 
-                //my stuff
 
 
 
@@ -776,7 +775,7 @@
                     //console.log("rgb: " + realRgb)
 
                     var cleanHex = realHex.substr(1);
-                    console.log(getContrast50(cleanHex))
+                    //console.log(getContrast50(cleanHex))
                     document.getElementById("color-background").style.backgroundColor =  realHex
 
                     document.getElementById("sample-text").style.color= getContrast50(cleanHex);
