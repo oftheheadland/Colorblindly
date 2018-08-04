@@ -111,9 +111,9 @@ function injectNormal() {
 
 
 //grayscale
-// document.getElementById("radio-10").addEventListener("click", function () {
-//     injectGrayscale();
-// });
+document.getElementById("radio-10").addEventListener("click", function () {
+    injectGrayscale();
+});
 
 function injectGrayscale() {
     chrome.tabs.executeScript({
