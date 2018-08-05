@@ -46,11 +46,15 @@ document.getElementById("button4").addEventListener("click", function () {
     changeTab(event, 'Contrast-Helper');
 });
 
-document.getElementById("button5").addEventListener("click", function () {
-    changeTab(event, 'Inject');
-});
+// document.getElementById("button5").addEventListener("click", function () {
+//     changeTab(event, 'Inject');
+// });
 
 document.getElementById("button6").addEventListener("click", function () {
+    changeTab(event, 'RGBtoHex');
+});
+
+document.getElementById("button7").addEventListener("click", function () {
     changeTab(event, 'About');
 });
 

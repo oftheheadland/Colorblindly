@@ -6,13 +6,13 @@
   "homepage_url": "http://vanness.me",
   "background": {
     "scripts": [
-      "background.js"
+      "script/background.js"
     ],
     "persistent": true
   },
-  "icons": { "16": "images/thicker.png",
-    "48": "images/thicker.png",
-   "128": "images/thicker.png" },
+  "icons": { "16": "images/eyecon.png",
+    "48": "images/eyecon.png",
+   "128": "images/eyecon.png" },
   "browser_action": {
     "default_title": "Eye of Odin", 
     "default_popup": "popup/popup.html"    
