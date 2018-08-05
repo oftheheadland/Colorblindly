@@ -8,39 +8,6 @@ body {
     height: 100%;
     background-color: #757272
     }
-.tab {
-    overflow: hidden;
-    border: 1px solid #3d3a3a;
-    background-color: #565252;
-}
-.tab button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-    font-size: 17px;
-}
-.tab button:hover {
-    background-color: #ddd;
-}
-.tab button.active {
-    background-color: #ccc;
-}
-.tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border: 1px solid #565252;
-    border-top: none;
-}
-
-
-.tabheader {
-    width: 40px; 
-    height: 40px
-}
 
 .rgbinput {
     width: 25px;
@@ -56,8 +23,6 @@ body {
     background-color: rgb(52, 124, 124); 
     margin-top: 250px;
 }
-
-
 
 /* radio button styles */
 
@@ -101,24 +66,3 @@ body {
 .radio-custom:checked + .radio-custom-label:before {
     background: #565252;
 }
-
-/* focus style */
-/* .checkbox-custom:focus + .checkbox-custom-label, .radio-custom:focus + .radio-custom-label {
-  outline: 1px solid #ddd; 
-} */
-
-
-
-
-
-
-
-/* spectrum color picker styles */
-
-.full-spectrum .sp-palette {
-    max-width: 200px;
-    }
-    
-    #Contrast-Helper{
-        height: 400px;
-    }
