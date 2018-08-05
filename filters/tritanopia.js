@@ -20,6 +20,3 @@ setTimeout(function() {
     window.scrollBy(1, 1);
     window.scrollBy(-1, -1);
 }, 1);
-userZoom = document.body.style.zoom;
-newZoom = userZoom - 1;
-console.log(newZoom);
