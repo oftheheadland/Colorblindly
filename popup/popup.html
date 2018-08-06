@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
     <link rel='stylesheet' href='../style/styles.css' />
+
+    <style>
+        #rainbow {
+            background: red;
+            background: linear-gradient(to right, violet, orange, yellow, rgb(6, 158, 6), cyan, blue);
+            -webkit-text-fill-color: transparent;
+            font-size: 11vw;
+        }
+    </style>
 </head>
+
 <body>
     <div id="Colorblind-Picker" style="padding: 20px">
-        <h3>Colorblind Picker</h3>
+
+        <h3 id="rainbow">Eye of Odin</h3>
         <form>
             <div>
                 <input id="radio-9" class="radio-custom" name="radio-group" type="radio" checked>
