@@ -37,6 +37,10 @@ margin-top: 0px
     margin: 0;
 }
 
+#Colorblind-Picker {
+    padding: 20px;
+}
+
 /* radio button styles */
 
 .checkbox-custom, .radio-custom {
