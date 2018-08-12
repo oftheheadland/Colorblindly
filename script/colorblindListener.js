@@ -10,7 +10,6 @@ document.getElementById("radio-1").addEventListener("click", function () {
 
 //achromatopsia
 document.getElementById("radio-2").addEventListener("click", function () {
-    achr();
     chrome.tabs.executeScript({
         file: 'filters/achromatopsia.js'
     });
