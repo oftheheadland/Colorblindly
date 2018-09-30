@@ -1,13 +1,19 @@
 /* popup styles */
 body {
-    font-size: 90%;
+    font-size: 100%;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    color: rgb(241, 240, 240);
-    width: 434px;
+    color: rgb(0, 0, 0);
+    width: 410px;
     height: 100%;
-    background-color: #757272
+    background-color: #fcf8f8
     }
+
+h3{
+margin-bottom: 20px;
+margin-left: 20px;
+margin-top: 0px
+}
 
 .rgbinput {
     width: 25px;
@@ -22,6 +28,17 @@ body {
     width:100px; 
     background-color: rgb(52, 124, 124); 
     margin-top: 250px;
+}
+
+.corner-button {
+    top: 2%;
+    right: 3.5%;
+    position: fixed;
+    margin: 0;
+}
+
+#Colorblind-Picker {
+    padding: 20px;
 }
 
 /* radio button styles */
@@ -45,7 +62,7 @@ body {
 .checkbox-custom + .checkbox-custom-label:before, .radio-custom + .radio-custom-label:before {
     content: '';
     background: #fff;
-    border: 2px solid #ddd;
+    border: 2px solid rgb(95, 88, 88);
     display: inline-block;
     vertical-align: middle;
     width: 20px;
@@ -64,5 +81,14 @@ body {
 }
 
 .radio-custom:checked + .radio-custom-label:before {
-    background: #565252;
+    background: #910ab3;
+}
+
+#rainbow {
+    background: red;
+    background: linear-gradient(to right, rgb(194, 103, 194), orange, rgb(31, 204, 54), rgb(28, 172, 255), rgb(10, 99, 10), blue);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 11vw;
 }
