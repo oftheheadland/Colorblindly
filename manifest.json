@@ -1,9 +1,9 @@
 {
-  "name": "Eye of Odin",
-  "version": "1.0",
+  "name": "Colorblindly",
+  "version": "0.1",
   "manifest_version": 2,
-  "description": "Accessibility Helper Extension",
-  "homepage_url": "http://vanness.me",
+  "description": "Simulates colorblindness in your web browser.",
+  "homepage_url": "https://github.com/oftheheadland",
   "background": {
     "scripts": [
       "script/background.js"
@@ -14,7 +14,7 @@
     "48": "images/eyecon.png",
    "128": "images/eyecon.png" },
   "browser_action": {
-    "default_title": "Eye of Odin", 
+    "default_title": "Colorblindly", 
     "default_popup": "popup/popup.html"    
   },
   "permissions": [
