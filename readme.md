@@ -4,9 +4,8 @@ Colorblindly is an extension that helps developers create websites for the peopl
 
 The extension works by placing a CSS filter over the webpage that modifies color ratios in line with actual types of colorblindness.
 
-There are 9 different settings to experience:
+There are 8 different settings to experience:
 
-* Trichromacy / Normal Color Vision
 * Blue Cone Monochromacy / Achromatomaly
 * Monochromacy / Achromatopsia
 * Green-Weak / Deuteranomaly
@@ -18,11 +17,11 @@ There are 9 different settings to experience:
 
 ## Getting Started
 
-Install the extension from the Chrome store at ____
+Install the extension from the Chrome store [here](https://chrome.google.com/webstore/detail/colorblindly/floniaahmccleoclneebhhmnjgdfijgg)
 
 Or clone the repository and add to Chrome as an unpacked extension.
 
-Currently this is a Google Chrome only extension and works in every version of Google Chrome 11 and up
+Currently this is a Google Chrome-only extension.
 
 ## Contributing
 
