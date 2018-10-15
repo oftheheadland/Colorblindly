@@ -1,4 +1,4 @@
-# Colorblindly
+# [Colorblindly](https://chrome.google.com/webstore/detail/colorblindly/floniaahmccleoclneebhhmnjgdfijgg)
 
 ![](https://raw.githubusercontent.com/oftheheadland/Colorblindly/master/comparison.png?token=AQaGk0g4TjGO0mgxg27gsx0oBtRGs--2ks5bzSWfwA%3D%3D)
 
