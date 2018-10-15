@@ -1,5 +1,8 @@
 # Colorblindly
 
+![](https://raw.githubusercontent.com/oftheheadland/Colorblindly/master/comparison.png?token=AQaGk0g4TjGO0mgxg27gsx0oBtRGs--2ks5bzSWfwA%3D%3D)
+
+
 Colorblindly is an extension that helps developers create websites for the people with colorblindness by allowing them to simulate the experience those users have on websites.
 
 The extension works by placing a CSS filter over the webpage that modifies color ratios in line with actual types of colorblindness.
