@@ -62,7 +62,7 @@ document.getElementById("radio-5").addEventListener("click", function () {
 
 //protanopia
 document.getElementById("radio-6").addEventListener("click", function () {
-    setSelected('radio-5');
+    setSelected('radio-6');
     chrome.tabs.executeScript({
         file: 'filters/protanopia.js'
     });
@@ -70,7 +70,7 @@ document.getElementById("radio-6").addEventListener("click", function () {
 
 //tritanomaly
 document.getElementById("radio-7").addEventListener("click", function () {
-    setSelected('radio-8');
+    setSelected('radio-7');
     chrome.tabs.executeScript({
         file: 'filters/tritanomaly.js'
     });
