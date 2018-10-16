@@ -21,6 +21,7 @@
   },
   "permissions": [
     "activeTab",
-    "storage"
+    "storage",
+    "<all_urls>"
   ]
 }
