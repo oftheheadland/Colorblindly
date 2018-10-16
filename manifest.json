@@ -10,14 +10,17 @@
     ],
     "persistent": true
   },
-  "icons": { "16": "images/eyecon.png",
+  "icons": {
+    "16": "images/eyecon.png",
     "48": "images/eyecon.png",
-   "128": "images/eyecon.png" },
+    "128": "images/eyecon.png"
+  },
   "browser_action": {
-    "default_title": "Colorblindly", 
-    "default_popup": "popup/popup.html"    
+    "default_title": "Colorblindly",
+    "default_popup": "popup/popup.html"
   },
   "permissions": [
-    "activeTab"
+    "activeTab",
+    "storage"
   ]
 }
