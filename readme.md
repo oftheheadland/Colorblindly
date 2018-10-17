@@ -28,11 +28,17 @@ Currently this is a Google Chrome-only extension.
 
 ## Contributing
 
-Feel free to make a pull request with your feature **OR** submit an issue and we'll try to make it happen.
+Feel free to make a pull request with your feature, following our [CONTRIBUTING.md](https://github.com/oftheheadland/Colorblindly/blob/master/CONTRIBUTING.md) **OR** submit an issue and we'll try to make it happen.
 
 ## Authors
 
 * **Andrew VanNess** - [oftheheadland](https://github.com/oftheheadland)
+
+## Contributors
+
+* [https://github.com/ItamarShDev](https://github.com/ItamarShDev)
+
+* [https://github.com/Poonchy](https://github.com/Poonchy)
 
 ## License
 
