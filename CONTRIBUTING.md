@@ -1,6 +1,6 @@
 This is a [Chrome Extension](https://developer.chrome.com/extensions/devguide).
 
-Please feel free so submit Pull Requests!
+Please feel free to submit Pull Requests!
 
 
 File Structure
