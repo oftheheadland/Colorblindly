@@ -1,27 +1,19 @@
 //Listeners for colorblind filter buttons
 //Injects a javascript file on click event, the js file applies a filter to simulate colorblindness
 
-
-
-
-function injectFilter(fileName) { 
-    chrome.tabs.executeScript({ file: fileName});
-}
-
-
 /**
  * get the selected filter on popup open
  */
 window.onload = function () {
-    try {
-        chrome.storage.local.get(['key'], function (result) {
-            document.getElementById(result.key).checked = true;
-        });
-    }
-    catch{ }
+    chrome.storage.local.get(['key'], function (result) {
+        try {
+            document.getElementById(result.key).click();
+        }
+        catch (e) {
+            console.log(e)
+        }
+    });
 }
-
-
 
 /**
  * Sets the selected filter in storage
@@ -35,6 +27,17 @@ function setSelected(value) {
     }
     catch{ }
 }
+
+function injectFilter(fileName) {
+    chrome.tabs.executeScript({ file: fileName });
+}
+
+//normal
+document.getElementById("radio-0").addEventListener("click", function () {
+    setSelected('radio-0');
+    injectFilter('filters/normal.js');
+
+});
 
 //achromatomaly
 document.getElementById("radio-1").addEventListener("click", function () {
@@ -85,11 +88,4 @@ document.getElementById("radio-7").addEventListener("click", function () {
 document.getElementById("radio-8").addEventListener("click", function () {
     setSelected('radio-8');
     injectFilter('filters/tritanopia.js');
-});
-
-//normal
-document.getElementById("radio-9").addEventListener("click", function () {
-    setSelected('radio-9');
-    injectFilter('filters/normal.js');
-
 });
