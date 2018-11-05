@@ -1,6 +1,6 @@
 # [Colorblindly](https://chrome.google.com/webstore/detail/colorblindly/floniaahmccleoclneebhhmnjgdfijgg)
 
-![](https://raw.githubusercontent.com/oftheheadland/Colorblindly/master/comparison.png?token=AQaGk0g4TjGO0mgxg27gsx0oBtRGs--2ks5bzSWfwA%3D%3D)
+![](https://cdn.discordapp.com/attachments/494330335149162528/508852562435506195/comparison.png)
 
 
 Colorblindly is an extension that helps developers create websites for the people with colorblindness by allowing them to simulate the experience those users have on websites.
