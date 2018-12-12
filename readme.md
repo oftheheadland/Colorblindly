@@ -18,6 +18,10 @@ There are 8 different settings to experience:
 * Blue-Weak / Tritanomaly
 * Blue-Blind / Tritanopia
 
+Colorblind Statistics, courtesy of Wikipedia
+
+![](https://user-images.githubusercontent.com/17204883/47188104-a5376100-d304-11e8-9b32-9bd48b155497.png)
+
 ## Getting Started
 
 Install the extension from the Chrome store [here](https://chrome.google.com/webstore/detail/colorblindly/floniaahmccleoclneebhhmnjgdfijgg)
