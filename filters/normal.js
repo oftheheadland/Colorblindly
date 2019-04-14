@@ -13,7 +13,7 @@ filterID.id = "filterID471924";
 filterID.setAttribute('style', 'height: 0; padding: 0; margin: 0; line-height: 0;');
 document.body.appendChild(filterID);
 
-stylingID.innerHTML = 'body{-webkit-filter:none;-moz-filter:none;-ms-filter:none;-o-filter:none;filter:none;}';
+stylingID.innerHTML = 'html{-webkit-filter:none;-moz-filter:none;-ms-filter:none;-o-filter:none;filter:none;}';
 setTimeout(function() {
     window.scrollBy(1, 1);
     window.scrollBy(-1, -1);
