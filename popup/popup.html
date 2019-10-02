@@ -12,18 +12,19 @@
 
         <h3 id="rainbow">Colorblindly</h3>
         <form>
-            <div>
+            <div id="option-normal">
                 <input id="radio-0" class="radio-custom" name="radio-group" type="radio" checked>
                 <label for="radio-0" class="radio-custom-label">Trichromacy / Normal</label>
             </div>
-            <div>
+            <div id="option-achromatomaly">
                 <input id="radio-1" class="radio-custom" name="radio-group" type="radio">
                 <label for="radio-1" class="radio-custom-label">Blue Cone Monochromacy / Achromatomaly</label>
             </div>
-            <div>
+            <div id="option-achromatopsia">
                 <input id="radio-2" class="radio-custom" name="radio-group" type="radio">
                 <label for="radio-2" class="radio-custom-label">Monochromacy / Achromatopsia</label>
             </div>
+            <!-- TODO: add option-filterName ids to the rest of the divs -->
             <div>
                 <input id="radio-3" class="radio-custom" name="radio-group" type="radio">
                 <label for="radio-3" class="radio-custom-label">Green-Weak / Deuteranomaly</label>
@@ -58,6 +59,7 @@
     </div>
 
     <script src="../script/colorblindListener.js"></script>
+    <script  src="../script/hover.js"></script>
 </body>
 
 </html>
