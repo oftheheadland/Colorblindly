@@ -17,8 +17,9 @@ File Structure
 +-- screenshots/
 |
 +-- script/
-|   +-- backgtound.js -> mandatory file, currently empty
-|   +-- colorblindListener.js -> popup event and click handlers <-- this is where the magic happen
+|   +-- background.js -> mandatory file, currently empty
+|   +-- colorblindListener.js -> popup event and click handlers <-- this is where the magic happens
+|   +-- hover.js -> adds hover effects to the popup window so users can see a preview of the filter
 |
 +-- style/ -> CSS stylesheets
 ...

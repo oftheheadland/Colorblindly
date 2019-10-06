@@ -44,6 +44,8 @@ Feel free to make a pull request with your feature, following our [CONTRIBUTING.
 
 * [https://github.com/Poonchy](https://github.com/Poonchy)
 
+* [https://github.com/minifyre](https://github.com/minifyre)
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
