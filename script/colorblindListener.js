@@ -3,7 +3,7 @@
 
 // stores the currently selected filter so that when the user stops hovering
 // over options, the currently selected filter will still be applied to the popup
-window.selectedFilter=null;
+window.selectedFilter = null;
 
 /**
  * get the selected filter on popup open
@@ -12,7 +12,7 @@ window.onload = function() {
   if (!chrome || !chrome.storage || !chrome.storage.local) return;
   chrome.storage.local.get(["key"], function(result) {
     try {
-		document.getElementById(result.key).click();
+      document.getElementById(result.key).click();
     } catch (e) {
       console.log(e);
     }
@@ -26,7 +26,7 @@ window.onload = function() {
 function setSelected(value) {
   try {
     chrome.storage.local.set({ key: value }, function() {
-		document.getElementById(value).checked = true;
+      document.getElementById(value).checked = true;
     });
   } catch {}
 }
@@ -42,6 +42,6 @@ document.querySelectorAll(['[id^="radio"]']).forEach(radioButton => {
     setSelected(radioButton.id);
     injectFilter(`filters/${filter}.js`);
     // popup-specific filters
-    applyFilter(window.selectedFilter=filter);
+    applyFilter((window.selectedFilter = filter));
   });
 });

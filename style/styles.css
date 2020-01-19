@@ -9,11 +9,6 @@ body {
   background-color: #fcf8f8;
 }
 
-h3 {
-  margin: 36px 0px 0px 0px;
-  padding-left: 25px;
-}
-
 .rgbinput {
   width: 25px;
 }
@@ -30,10 +25,14 @@ h3 {
 }
 
 .corner-button {
-  top: 2%;
-  right: 3.5%;
+  top: calc(100vh - 40px);
+  right: 10px;
   position: fixed;
   margin: 0;
+}
+
+.corner-button:hover {
+  opacity: 90%;
 }
 
 #Colorblind-Picker form {
@@ -63,8 +62,8 @@ h3 {
   position: relative;
 }
 
-.checkbox-custom + .checkbox-custom-label:before,
-.radio-custom + .radio-custom-label:before {
+.checkbox-custom+.checkbox-custom-label:before,
+.radio-custom+.radio-custom-label:before {
   content: '';
   background: #fff;
   border: 2px solid rgb(95, 88, 88);
@@ -77,29 +76,31 @@ h3 {
   text-align: center;
 }
 
-.checkbox-custom:checked + .checkbox-custom-label:before {
+.checkbox-custom:checked+.checkbox-custom-label:before {
   background: rebeccapurple;
 }
 
-.radio-custom + .radio-custom-label:before {
+.radio-custom+.radio-custom-label:before {
   border-radius: 50%;
 }
 
-.radio-custom:checked + .radio-custom-label:before {
+.radio-custom:checked+.radio-custom-label:before {
   background: #910ab3;
 }
 
 #rainbow {
   background: red;
-  background: linear-gradient(
-    to right,
-    rgb(194, 103, 194),
-    orange,
-    rgb(31, 204, 54),
-    rgb(28, 172, 255),
-    rgb(10, 99, 10),
-    blue
-  );
-  font-size: 11vw;
+  background: linear-gradient(to right,
+      rgb(194, 103, 194),
+      orange,
+      rgb(31, 204, 54),
+      rgb(28, 172, 255),
+      rgb(10, 99, 10),
+      blue);
+  font-size: 3em;
   color: white;
+  text-shadow: 2px 2px rgb(54, 54, 54);
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 15px;
 }
