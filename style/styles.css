@@ -104,3 +104,12 @@ body {
   margin-top: 0;
   padding: 15px;
 }
+
+
+form div:hover {
+  background-color: rgb(230, 230, 230)
+}
+
+form div {
+  border-radius: 10px;
+}
