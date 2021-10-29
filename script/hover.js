@@ -1,7 +1,7 @@
 const makeCssStyles = type =>
   `#rainbow{-webkit-filter:url(#${type});-moz-filter:(#${type});-ms-filter:(#${type});-o-filter:(#${type});filter:(#${type});}`;
 const makeSVGFilter = (type, filterValues) =>
-  `<svg id="colorblind-filters" style="display: none"> <defs> <filter id="${type}"> <feColorMatrix type="matrix" values="${filterValues}" in="SourceGraphic" /> </filter> </defs> </svg>`;
+  `<svg id="colorblind-filters" style="display: none"> <defs> <filter id="${type}" color-interpolation-filters="linearRGB"> <feColorMatrix type="matrix" values="${filterValues}" in="SourceGraphic" /> </filter> </defs> </svg>`;
 // global to hold the innerhtml of the colorblind filters. each filter has a filterSVG and filterStyles
 const filters = {
   achromatomalySVG: makeSVGFilter(
@@ -18,37 +18,37 @@ const filters = {
 
   deuteranomalySVG: makeSVGFilter(
     "deuteranomaly",
-    "0.8,0.2,0,0,0 0.258,0.742,0,0,0 0,0.142,0.858,0,0 0,0,0,1,0"
+    "0.57418,0.42582,-0.00000,0,0 0.17418,0.82582,-0.00000,0,0 -0.01318,0.01318,1.00000,0,0 0,0,0,1,0"
   ),
   deuteranomalyStyles: makeCssStyles("deuteranomaly"),
 
   deuteranopiaSVG: makeSVGFilter(
     "deuteranopia",
-    "0.625,0.375,0,0,0 0.7,0.3,0,0,0 0,0.3,0.7,0,0 0,0,0,1,0"
+    "0.29031,0.70969,-0.00000,0,0 0.29031,0.70969,-0.00000,0,0 -0.02197,0.02197,1.00000,0,0 0,0,0,1,0"
   ),
   deuteranopiaStyles: makeCssStyles("deuteranopia"),
 
   protanomalySVG: makeSVGFilter(
     "protanomaly",
-    "0.817,0.183,0,0,0 0.333,0.667,0,0,0 0,0.125,0.875,0,0 0,0,0,1,0"
+    "0.46533,0.53467,-0.00000,0,0 0.06533,0.93467,0.00000,0,0 0.00268,-0.00268,1.00000,0,0 0,0,0,1,0"
   ),
   protanomalyStyles: makeCssStyles("protanomaly"),
 
   protanopiaSVG: makeSVGFilter(
     "protanopia",
-    "0.567,0.433,0,0,0 0.558,0.442,0,0,0 0 0.242,0.758,0,0 0,0,0,1,0"
+    "0.10889,0.89111,-0.00000,0,0 0.10889,0.89111,0.00000,0,0 0.00447,-0.00447,1.00000,0,0 0,0,0,1,0"
   ),
   protanopiaStyles: makeCssStyles("protanopia"),
 
   tritanomalySVG: makeSVGFilter(
     "tritanomaly",
-    "0.967,0.033,0,0,0 0,0.733,0.267,0,0 0,0.183,0.817,0,0 0,0,0,1,0"
+    "1.00000,0.09142,-0.09142,0,0 0.00000,0.92030,0.07970,0,0 -0.00000,0.52030,0.47970,0,0 0,0,0,1,0"
   ),
   tritanomalyStyles: makeCssStyles("tritanomaly"),
 
   tritanopiaSVG: makeSVGFilter(
     "tritanopia",
-    "0.95,0.05,0,0,0 0,0.433,0.567,0,0 0,0.475,0.525,0,0 0,0,0,1,0"
+    "1.00000,0.15236,-0.15236,0,0 0.00000,0.86717,0.13283,0,0 -0.00000,0.86717,0.13283,0,0 0,0,0,1,0"
   ),
   tritanopiaStyles: makeCssStyles("tritanopia")
 };
