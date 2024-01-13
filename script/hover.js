@@ -100,6 +100,8 @@ function selectFilter(evt) {
 }
 
 function getID(element) {
+  if (!element) return;
+  if (!element?.id) return;
   let filterID = element.id.replace("option-", "");
   // return ID if it exists OR if the element is a child of the div (get its parent)
   return !!filterID ? filterID : getID(element.parentNode);
