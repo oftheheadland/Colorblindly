@@ -31,8 +31,27 @@ function setSelected(value) {
   } catch {}
 }
 
-function injectFilter(fileName) {
-  chrome.tabs.executeScript({ file: fileName });
+async function injectFilter(fileName) {
+  const tab = await chrome.tabs.query({ active: true });
+  if (tab.length === 0) return;
+  chrome.scripting.executeScript({
+    target: {tabId: tab[0].id},
+    files: [fileName]
+  });
+
+  /* All tabs at once method. Requires permission to every domain. 
+  Better to restrict to current tab. */ 
+
+  // const tabs = await chrome.tabs.query({});
+  // console.log('all tabs:',tabs)
+  // tabs.forEach(tab => {
+  //   console.log('tab...', tab)
+  //   chrome.scripting.executeScript({
+  //     target: {tabId: tab.id},
+  //     files: [fileName]
+  //   });
+  // });
+
 }
 
 document.querySelectorAll(['[id^="radio"]']).forEach(radioButton => {
