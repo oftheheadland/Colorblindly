@@ -1,7 +1,8 @@
 {
   "name": "Colorblindly",
-  "version": "2.1",
+  "version": "2.2",
   "manifest_version": 3,
+  "host_permissions": ["<all_urls>"],
   "description": "Simulates colorblindness in your web browser.",
   "homepage_url": "https://github.com/oftheheadland",
   "icons": {
