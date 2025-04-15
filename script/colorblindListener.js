@@ -6,12 +6,28 @@
 window.selectedFilter = null;
 
 async function injectFilter(fileName) {
-  const tab = await chrome.tabs.query({ active: true });
-  if (tab.length === 0) return;
-  chrome.scripting.executeScript({
-    target: { tabId: tab[0].id },
-    files: [fileName],
-  });
+  console.log("Attempting to inject filter:", fileName);
+
+  // Query the active tab in the current window
+  const tabs = await chrome.tabs.query({ active: true, currentWindow: true });
+  if (tabs.length === 0) {
+    console.error("No active tab found in the current window. Script injection aborted.");
+    return;
+  }
+
+  const activeTab = tabs[0];
+  console.log("Active tab found:", activeTab);
+
+  try {
+    // Inject the script into the active tab
+    await chrome.scripting.executeScript({
+      target: { tabId: activeTab.id },
+      files: [fileName],
+    });
+    console.log("Script injected successfully:", fileName);
+  } catch (error) {
+    console.error("Error injecting script:", error);
+  }
 }
 
 document.querySelectorAll(['[id^="radio"]']).forEach((radioButton) => {
