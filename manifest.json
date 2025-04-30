@@ -1,14 +1,14 @@
 {
   "name": "Colorblindly",
-  "version": "2.4",
+  "version": "2.5",
   "manifest_version": 3,
   "host_permissions": ["<all_urls>"],
   "description": "Simulates colorblindness in your web browser.",
   "homepage_url": "https://github.com/oftheheadland",
   "icons": {
-    "16": "images/eyecon.png",
-    "48": "images/eyecon.png",
-    "128": "images/eyecon.png"
+    "16": "images/newlogo128.png",
+    "48": "images/newlogo128.png",
+    "128": "images/newlogo128.png"
   },
   "action": {
     "default_title": "Colorblindly",
