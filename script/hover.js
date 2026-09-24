@@ -16,6 +16,12 @@ const filters = {
   ),
   achromatopsiaStyles: makeCssStyles("achromatopsia"),
 
+  blueconeSVG: makeSVGFilter(
+    "bluecone",
+    "0.01776,0.10947,0.87278,0,0 0.01776,0.10947,0.87278,0,0 0.01776,0.10947,0.87278,0,0 0,0,0,1,0"
+  ),
+  blueconeStyles: makeCssStyles("bluecone"),
+
   deuteranomalySVG: makeSVGFilter(
     "deuteranomaly",
     "0.57418,0.42582,-0.00000,0,0 0.17418,0.82582,-0.00000,0,0 -0.01318,0.01318,1.00000,0,0 0,0,0,1,0"

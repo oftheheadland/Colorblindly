@@ -6,10 +6,11 @@ Colorblindly is an extension that helps developers create websites for the peopl
 
 The extension works by placing a CSS filter over the webpage that modifies color ratios in line with actual types of colorblindness.
 
-There are 8 different settings to experience:
+There are 9 different settings to experience:
 
-- Blue Cone Monochromacy / Achromatomaly
+- Partial Color Loss / Achromatomaly
 - Monochromacy / Achromatopsia
+- Blue-Cone-Only / Blue Cone Monochromacy
 - Green-Weak / Deuteranomaly
 - Green-Blind / Deuteranopia
 - Red-Weak / Protanomaly
