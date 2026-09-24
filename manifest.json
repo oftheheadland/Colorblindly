@@ -20,6 +20,8 @@
       "resources": [
         "filters/achromatomaly.js",
         "filters/achromatopsia.js",
+        "filters/bluecone.js",
+        "filters/cerebral.js",
         "filters/deuteranomaly.js",
         "filters/deuteranopia.js",
         "filters/normal.js",

@@ -12,9 +12,21 @@ const filters = {
 
   achromatopsiaSVG: makeSVGFilter(
     "achromatopsia",
-    "0.299,0.587,0.114,0,0 0.299,0.587,0.114,0,0 0.299,0.587,0.114,0,0 0,0,0,1,0"
+    "0.00700,0.51900,0.47400,0,0 0.00700,0.51900,0.47400,0,0 0.00700,0.51900,0.47400,0,0 0,0,0,1,0"
   ),
   achromatopsiaStyles: makeCssStyles("achromatopsia"),
+
+  blueconeSVG: makeSVGFilter(
+    "bluecone",
+    "0.01776,0.10947,0.87278,0,0 0.01776,0.10947,0.87278,0,0 0.01776,0.10947,0.87278,0,0 0,0,0,1,0"
+  ),
+  blueconeStyles: makeCssStyles("bluecone"),
+
+  cerebralSVG: makeSVGFilter(
+    "cerebral",
+    "0.21267,0.71515,0.07218,0,0 0.21267,0.71515,0.07218,0,0 0.21267,0.71515,0.07218,0,0 0,0,0,1,0"
+  ),
+  cerebralStyles: makeCssStyles("cerebral"),
 
   deuteranomalySVG: makeSVGFilter(
     "deuteranomaly",
